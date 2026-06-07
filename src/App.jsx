@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import StarField from './components/StarField';
 import Home from './pages/Home';
 import Leaderboard from './pages/Leaderboard';
+import PlayerProfile from './pages/PlayerProfile';
 import Compare from './pages/Compare';
 import Auctions from './pages/Auctions';
 import { Toaster } from './components/ui/toaster';
@@ -32,6 +33,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/tabela" element={<Leaderboard />} />
+            <Route path="/profil/:playerName" element={<PlayerProfile />} />
             <Route path="/porownaj" element={<Compare />} />
             <Route path="/licytacje" element={<Auctions />} />
           </Routes>
