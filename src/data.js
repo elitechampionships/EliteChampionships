@@ -70,10 +70,10 @@ export const LAST_CHAMPION = {
   score: 18520,
   place: 1,
   members: [
-    { name: 'Ego_Yoahima123', role: '#1' },
-    { name: 'okshey', role: '#10' },
-    { name: '_ZiomaleQ', role: '#18' },
-    { name: 'sachunerf', role: '#31' },
+    { name: 'Ego_Yoahima123', role: '3rd' },
+    { name: 'okshey', role: '10th' },
+    { name: '_ZiomaleQ', role: '18th' },
+    { name: 'sachunerf', role: '31st' },
   ],
 };
 
