@@ -72,7 +72,7 @@ export default function Home() {
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <Link
                 to="/licytacje"
-                className="group inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-r from-red-500 to-amber-500 hover:from-red-400 hover:to-amber-400 text-white font-bold tracking-wide shadow-lg shadow-red-700/30 ring-1 ring-white/10 transition-colors"
+                className="group inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-r from-red-500 to-amber-500 hover:from-red-400 hover:to-amber-400 text-white font-bold tracking-wider transition-all"
               >
                 <Radio className="w-4 h-4" />
                 Dołącz do aukcji
@@ -99,7 +99,7 @@ export default function Home() {
           </div>
 
           <div className="lg:col-span-5">
-            <div className="relative rounded-[2rem] border border-zinc-800/70 bg-gradient-to-br from-zinc-950/80 via-zinc-900/50 to-zinc-950/80 backdrop-blur-3xl p-6 sm:p-8 shadow-2xl shadow-black/40 overflow-hidden">
+            <div className="relative rounded-[2rem] border border-zinc-800/70 bg-gradient-to-br from-zinc-950/80 via-zinc-900/50 to-zinc-950/80 backdrop-blur-3xl p-6 sm:p-8 shadow-2xl shadow-black/40">
               <div className="absolute -top-24 -right-24 w-72 h-72 rounded-full bg-red-500/20 blur-3xl pointer-events-none" />
               <div className="absolute -bottom-24 -left-24 w-72 h-72 rounded-full bg-cyan-400/15 blur-3xl pointer-events-none" />
               <div className="absolute top-4 right-4 px-2.5 py-1 rounded-full bg-red-500/15 border border-red-400/30 text-red-200 text-[10px] font-bold tracking-widest uppercase flex items-center gap-1.5">
@@ -175,11 +175,11 @@ export default function Home() {
                 </div>
                 <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
                   {LAST_CHAMPION.members.map((m) => (
-                    <div key={m.name} className="rounded-2xl border border-zinc-700/60 bg-zinc-950/70 p-4 text-center">
-                      <img src={avatarUrl(m.name)} alt={m.name} className="mx-auto mb-3 h-16 w-16 rounded-2xl border border-white/10 object-cover" loading="lazy" />
-                      <div className="text-sm font-semibold text-white truncate">{m.name}</div>
+                    <Link key={m.name} to={`/profil/${m.name}`} className="group rounded-2xl border border-zinc-700/60 bg-zinc-950/70 p-4 text-center hover:border-cyan-400/50 transition-all">
+                      <img src={avatarUrl(m.name)} alt={m.name} className="mx-auto mb-3 h-16 w-16 rounded-2xl border border-white/10 object-cover group-hover:border-cyan-400/50 transition-colors" loading="lazy" />
+                      <div className="text-sm font-semibold text-white truncate group-hover:text-cyan-300">{m.name}</div>
                       <div className="mt-1 text-[10px] uppercase tracking-[0.3em] text-zinc-500">{m.role}</div>
-                    </div>
+                    </Link>
                   ))}
                 </div>
               </>
@@ -227,7 +227,7 @@ export default function Home() {
               <h3 className="mt-1 text-2xl sm:text-3xl font-black text-white">Śledź aukcje w przyszłych turniejach</h3>
               <p className="mt-2 max-w-xl text-sm text-zinc-400">Wejdź do pokoju aukcji jako kapitan, admin lub widz — i przeżyj licytacje na żywo.</p>
             </div>
-            <Link to="/licytacje" className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-cyan-400 to-violet-500 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-violet-900/40 ring-1 ring-white/10 transition hover:from-cyan-300 hover:to-violet-400">
+            <Link to="/licytacje" className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-cyan-400 to-violet-500 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-violet-500/50 hover:shadow-violet-400/60 transition-all">
               Wejdź do aukcji <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
