@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, Trophy, Users } from 'lucide-react';
-import { TOP_PLAYERS, TEAM_STANDINGS, ALL_TIME_PLAYERS, SITE } from '../data';
+import { TOP_PLAYERS, TEAM_STANDINGS, ALL_TIME_PLAYERS } from '../data';
 
 function getPlayerCardStyle(avgPlace) {
   if (avgPlace === 1.0) {
@@ -176,7 +176,7 @@ export default function Leaderboard() {
           <h1 className="mt-3 text-4xl font-black text-white sm:text-5xl">Tabela Wyników</h1>
           <p className="mt-4 max-w-2xl text-sm text-zinc-400">
   {edition === 'ALL'
-    ? 'TOP 10 graczy według średniej punktów ze wszystkich edycji Elite Championships'
+    ? 'TOP 10 graczy według ┼średniej punkt├│w ze wszystkich edycji Elite Championships'
     : 'Historia, punkty i rankingi z każdej edycji.'}
 </p>
         </div>
@@ -232,7 +232,7 @@ export default function Leaderboard() {
             ))
           ) : (
             <div className="rounded-3xl border border-dashed border-zinc-700/60 bg-zinc-950/60 p-12 text-center text-zinc-400">
-              <div className="text-lg font-semibold text-white">Brak wyników</div>
+              <div className="text-lg font-semibold text-white">Brak Wyników</div>
               <div className="mt-2 text-sm">Nie znaleziono gracza "{searchTerm}"</div>
             </div>
           )}
