@@ -178,7 +178,7 @@ export default function Home() {
                     <Link key={m.name} to={`/profil/${m.name}`} className="group rounded-2xl border border-zinc-700/60 bg-zinc-950/70 p-4 text-center hover:border-cyan-400/50 transition-all">
                       <img src={avatarUrl(m.name)} alt={m.name} className="mx-auto mb-3 h-16 w-16 rounded-2xl border border-white/10 object-cover group-hover:border-cyan-400/50 transition-colors" loading="lazy" />
                       <div className="text-sm font-semibold text-white truncate group-hover:text-cyan-300">{m.name}</div>
-                      <div className="mt-1 text-[10px] uppercase tracking-[0.3em] text-zinc-500">{m.role}</div>
+                      <div className="mt-1 text-[10px] uppercase tracking-[0.3em] text-zinc-500"> {m.place} miejsce </div>
                     </Link>
                   ))}
                 </div>
