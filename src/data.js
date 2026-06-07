@@ -79,38 +79,38 @@ export const LAST_CHAMPION = {
 
 // --- 8. LEADERBOARD / TABELA WYNIKÓW --------------------------
 export const TOP_PLAYERS = [
-  { rank: 1, name: 'QesiL', mcName: 'QesiL', displayName: 'QesiL', points: 3650, team: 'GREEN', teamId: 'green', teamColor: 'bg-green-500', avg: 3650, avgPlace: 1.0, editions: 1, bestFinish: 1, isSub: false, bio: 'Kluczowy strzelec Team Green. Dominujący w punktowaniu od startu sezonu.' },
-  { rank: 2, name: 'Killed_By_VeGGas', mcName: 'Killed_By_VeGGas', displayName: 'Killed_By_VeGGas', points: 3154, team: 'GREEN', teamId: 'green', teamColor: 'bg-green-500', avg: 3154, avgPlace: 2.0, editions: 1, bestFinish: 2, isSub: false, bio: 'Pozycja numer 2 w klasyfikacji generalnej. Stabilna forma i agresywny styl gry.' },
-  { rank: 3, name: 'Ego_Yoahima123', mcName: 'Ego_Yoahima123', displayName: 'Ego_Yoahima123', points: 3124, team: 'ORANGE', teamId: 'orange', teamColor: 'bg-orange-400', avg: 3124, avgPlace: 3.0, editions: 1, bestFinish: 3, isSub: false, bio: 'Silna figura dla mistrzowskiego Team Orange. Pełni rolę punktującego snajpera.' },
-  { rank: 4, name: '__Obsydian__', mcName: '__Obsydian__', displayName: '__Obsydian__', points: 3012, team: 'GREEN', teamId: 'green', teamColor: 'bg-green-500', avg: 3012, avgPlace: 4.0, editions: 1, bestFinish: 4, isSub: false, bio: 'Obrona Team Green. Perfekcja w blokowaniu przeciwników.' },
-  { rank: 5, name: 'qvwx', mcName: 'qvwx', displayName: 'qvwx', points: 2960, team: 'RED', teamId: 'red', teamColor: 'bg-red-500', avg: 2960, avgPlace: 5.0, editions: 1, bestFinish: 5, isSub: false, bio: 'Kluczowy zawodnik Team Red z ofensywną dynamiką.' },
-  { rank: 6, name: 'Tisel', mcName: 'Tisel', displayName: 'Tisel', points: 2940, team: 'YELLOW', teamId: 'yellow', teamColor: 'bg-yellow-400', avg: 2940, avgPlace: 6.0, editions: 1, bestFinish: 6, isSub: false, bio: 'Solidny lider Team Yellow. Wyważona gra i dobre finiszowanie.' },
-  { rank: 7, name: '_Bxng', mcName: '_Bxng', displayName: '_Bxng', points: 2813, team: 'PURPLE', teamId: 'violet', teamColor: 'bg-violet-500', avg: 2813, avgPlace: 7.0, editions: 1, bestFinish: 7, isSub: false, bio: 'Klasyczny strzelec Team Purple. Przewidywalność i dokładność.' },
-  { rank: 8, name: 'SpaceFl1erzz', mcName: 'SpaceFl1erzz', displayName: 'SpaceFl1erzz', points: 2812, team: 'CYAN', teamId: 'cyan', teamColor: 'bg-teal-500', avg: 2812, avgPlace: 8.0, editions: 1, bestFinish: 8, isSub: false, bio: 'Zawodnik Team Cyan z dynamicznym stylem i wysoką mobilnością.' },
-  { rank: 9, name: 'MykolaPajonkowy', mcName: 'MykolaPajonkowy', displayName: 'MykolaPajonkowy', points: 2744, team: 'AQUA', teamId: 'aqua', teamColor: 'bg-cyan-400', avg: 2744, avgPlace: 9.0, editions: 1, bestFinish: 9, isSub: false, bio: 'Zawodnik Team Aqua. Zrównoważony gracz z dobrym refleksem.' },
-  { rank: 10, name: 'okshey', mcName: 'okshey', displayName: 'okshey', points: 2699, team: 'ORANGE', teamId: 'orange', teamColor: 'bg-orange-400', avg: 2699, avgPlace: 10.0, editions: 1, bestFinish: 10, isSub: false, bio: 'Solidna partnerka w Team Orange. Wysoka wytrzymałość i punktacja.' },
-  { rank: 11, name: 'Dequaz', mcName: 'Dequaz', displayName: 'Dequaz', points: 2684, team: 'BLUE', teamId: 'blue', teamColor: 'bg-blue-500', avg: 2684, avgPlace: 11.0, editions: 1, bestFinish: 11, isSub: false, bio: 'Weteran Team Blue. Stabilne wyniki i dobre wsparcie.' },
-  { rank: 12, name: 'CeszarzKeczup_', mcName: 'CeszarzKeczup_', displayName: 'CeszarzKeczup_', points: 2564, team: 'GREEN', teamId: 'green', teamColor: 'bg-green-500', avg: 2564, avgPlace: 12.0, editions: 1, bestFinish: 12, isSub: false, bio: 'Wsparcie Team Green. Skoncentrowany na kontroli strefy.' },
-  { rank: 13, name: 'Hacek_', mcName: 'Hacek_', displayName: 'Hacek_', points: 2548, team: 'PURPLE', teamId: 'violet', teamColor: 'bg-violet-500', avg: 2548, avgPlace: 13.0, editions: 1, bestFinish: 13, isSub: false, bio: 'Zawodnik Team Purple z talentem do wykańczania akcji.' },
-  { rank: 14, name: 'real123XD', mcName: 'real123XD', displayName: 'real123XD', points: 2388, team: 'RED', teamId: 'red', teamColor: 'bg-red-500', avg: 2388, avgPlace: 14.0, editions: 1, bestFinish: 14, isSub: false, bio: 'Dynamiczny gracz Team Red. Mocny finisz w drugiej połowie meczu.' },
-  { rank: 15, name: 'cyrtyna', mcName: 'cyrtyna', displayName: 'cyrtyna', points: 2279, team: 'YELLOW', teamId: 'yellow', teamColor: 'bg-yellow-400', avg: 2279, avgPlace: 15.0, editions: 1, bestFinish: 15, isSub: false, bio: 'Wszechstronny zawodnik Team Yellow, znany z dobrego rozstawienia.' },
-  { rank: 16, name: 'EpicTigerPro08', mcName: 'EpicTigerPro08', displayName: 'EpicTigerPro08', points: 2248, team: 'BLUE', teamId: 'blue', teamColor: 'bg-blue-500', avg: 2248, avgPlace: 16.0, editions: 1, bestFinish: 16, isSub: false, bio: 'Reprezentant Team Blue. Silny finisz i praca drużynowa.' },
-  { rank: 17, name: 'Mu55inMan', mcName: 'Mu55inMan', displayName: 'Mu55inMan', points: 2160, team: 'CYAN', teamId: 'cyan', teamColor: 'bg-teal-500', avg: 2160, avgPlace: 17.0, editions: 1, bestFinish: 17, isSub: false, bio: 'Gracz Team Cyan o agresywnym stylu i szybkim zbieraniu punktów.' },
-  { rank: 18, name: '_ZiomaleQ', mcName: '_ZiomaleQ', displayName: '_ZiomaleQ', points: 2155, team: 'ORANGE', teamId: 'orange', teamColor: 'bg-orange-400', avg: 2155, avgPlace: 18.0, editions: 1, bestFinish: 18, isSub: false, bio: 'Stabilny zawodnik Team Orange. Dobra synchronizacja z drużyną.' },
-  { rank: 19, name: 'trolfejsx', mcName: 'trolfejsx', displayName: 'trolfejsx', points: 2124, team: 'YELLOW', teamId: 'yellow', teamColor: 'bg-yellow-400', avg: 2124, avgPlace: 19.0, editions: 1, bestFinish: 19, isSub: false, bio: 'Dynamiczny Team Yellow. Zawodnik często inicjuje kluczowe akcje.' },
-  { rank: 20, name: 'NiebieskiNN', mcName: 'NiebieskiNN', displayName: 'NiebieskiNN', points: 1906, team: 'YELLOW', teamId: 'yellow', teamColor: 'bg-yellow-400', avg: 1906, avgPlace: 20.0, editions: 1, bestFinish: 20, isSub: false, bio: 'Solidne wsparcie Team Yellow. Skupiony na obronie strategii.' },
-  { rank: 21, name: 'Maqox', mcName: 'Maqox', displayName: 'Maqox', points: 1825, team: 'RED', teamId: 'red', teamColor: 'bg-red-500', avg: 1825, avgPlace: 21.0, editions: 1, bestFinish: 21, isSub: false, bio: 'Zawodnik Team Red. Staje się groźniejszy w późniejszych fazach.' },
-  { rank: 22, name: 'Mak0vkaa', mcName: 'Mak0vkaa', displayName: 'Mak0vkaa', points: 1815, team: 'PURPLE', teamId: 'violet', teamColor: 'bg-violet-500', avg: 1815, avgPlace: 22.0, editions: 1, bestFinish: 22, isSub: false, bio: 'Zawodnik Team Purple z kreatywnymi zagraniami w polu.' },
-  { rank: 23, name: 'XxArbuzik_', mcName: 'XxArbuzik_', displayName: 'XxArbuzik_', points: 1755, team: 'PURPLE', teamId: 'violet', teamColor: 'bg-violet-500', avg: 1755, avgPlace: 23.0, editions: 1, bestFinish: 23, isSub: false, bio: 'Drużynowy żołnierz Team Purple. Silna praca zespołowa.' },
-  { rank: 24, name: 'Woosiee', mcName: 'Woosiee', displayName: 'Woosiee', points: 1747, team: 'AQUA', teamId: 'aqua', teamColor: 'bg-cyan-400', avg: 1747, avgPlace: 24.0, editions: 1, bestFinish: 24, isSub: false, bio: 'Zawodnik Team Aqua. Specjalista od kontroli terenu.' },
-  { rank: 25, name: 'Wojr3kk', mcName: 'Wojr3kk', displayName: 'Wojr3kk', points: 1733, team: 'AQUA', teamId: 'aqua', teamColor: 'bg-cyan-400', avg: 1733, avgPlace: 25.0, editions: 1, bestFinish: 25, isSub: false, bio: 'Wsparcie Team Aqua. Zgrany w koordynacji z partnerami.' },
-  { rank: 26, name: 'Spoc0ny_Kacperek', mcName: 'Spoc0ny_Kacperek', displayName: 'Spoc0ny_Kacperek', points: 1699, team: 'AQUA', teamId: 'aqua', teamColor: 'bg-cyan-400', avg: 1699, avgPlace: 26.0, editions: 1, bestFinish: 26, isSub: false, bio: 'Solidny zawodnik Team Aqua, specjalista od szybkich rund.' },
-  { rank: 27, name: 'Robot55Ster', mcName: 'Steve', displayName: 'Robot55Ster (SUB)', points: 1652, team: 'BLUE', teamId: 'blue', teamColor: 'bg-blue-500', avg: 1652, avgPlace: 27.0, editions: 1, bestFinish: 27, isSub: true, bio: 'Rezerwowy Team Blue. W trybie SUB gra jako Steve.' },
-  { rank: 28, name: 'h3xol', mcName: 'h3xol', displayName: 'h3xol', points: 1596, team: 'RED', teamId: 'red', teamColor: 'bg-red-500', avg: 1596, avgPlace: 28.0, editions: 1, bestFinish: 28, isSub: false, bio: 'Trzyma tempo Team Red. Niezawodny w punktacji średniej.' },
-  { rank: 29, name: 'MahiruEnjoyer', mcName: 'MahiruEnjoyer', displayName: 'MahiruEnjoyer', points: 1536, team: 'CYAN', teamId: 'cyan', teamColor: 'bg-teal-500', avg: 1536, avgPlace: 29.0, editions: 1, bestFinish: 29, isSub: false, bio: 'Wsparcie Team Cyan. Zdolny do szybkich obrotów akcji.' },
-  { rank: 30, name: 'Anna_MokeGacie', mcName: 'Anna_MokeGacie', displayName: 'Anna_MokeGacie', points: 1533, team: 'CYAN', teamId: 'cyan', teamColor: 'bg-teal-500', avg: 1533, avgPlace: 30.0, editions: 1, bestFinish: 30, isSub: false, bio: 'Zawodniczka Team Cyan. Precyzyjna i konsekwentna.' },
-  { rank: 31, name: 'stachunerf', mcName: 'stachunerf', displayName: 'stachunerf', points: 1420, team: 'ORANGE', teamId: 'orange', teamColor: 'bg-orange-400', avg: 1420, avgPlace: 31.0, editions: 1, bestFinish: 31, isSub: false, bio: 'Zawodnik Team Orange, lider zaplecza i taktyk.' },
-  { rank: 32, name: 'FireBeastMode', mcName: 'FireBeastMode', displayName: 'FireBeastMode (SUB)', points: 965, team: 'BLUE', teamId: 'blue', teamColor: 'bg-blue-500', avg: 965, avgPlace: 32.0, editions: 1, bestFinish: 32, isSub: true, bio: 'Rezerwowy Team Blue. Sub z klasycznym skinem Steve.' },
+  { rank: 1, name: 'QesiL', mcName: 'QesiL', displayName: 'QesiL', points: 3650, team: 'GREEN', teamId: 'green', teamColor: 'bg-green-500', avg: 3650, avgPlace: 1.0, editions: 1, bestFinish: 1, isSub: false },
+  { rank: 2, name: 'Killed_By_VeGGas', mcName: 'Killed_By_VeGGas', displayName: 'Killed_By_VeGGas', points: 3154, team: 'GREEN', teamId: 'green', teamColor: 'bg-green-500', avg: 3154, avgPlace: 2.0, editions: 1, bestFinish: 2, isSub: false },
+  { rank: 3, name: 'Ego_Yoahima123', mcName: 'Ego_Yoahima123', displayName: 'Ego_Yoahima123', points: 3124, team: 'ORANGE', teamId: 'orange', teamColor: 'bg-orange-400', avg: 3124, avgPlace: 3.0, editions: 1, bestFinish: 3, isSub: false },
+  { rank: 4, name: '__Obsydian__', mcName: '__Obsydian__', displayName: '__Obsydian__', points: 3012, team: 'GREEN', teamId: 'green', teamColor: 'bg-green-500', avg: 3012, avgPlace: 4.0, editions: 1, bestFinish: 4, isSub: false },
+  { rank: 5, name: 'qvwx', mcName: 'qvwx', displayName: 'qvwx', points: 2960, team: 'RED', teamId: 'red', teamColor: 'bg-red-500', avg: 2960, avgPlace: 5.0, editions: 1, bestFinish: 5, isSub: false },
+  { rank: 6, name: 'Tisel', mcName: 'Tisel', displayName: 'Tisel', points: 2940, team: 'YELLOW', teamId: 'yellow', teamColor: 'bg-yellow-400', avg: 2940, avgPlace: 6.0, editions: 1, bestFinish: 6, isSub: false },
+  { rank: 7, name: '_Bxng', mcName: '_Bxng', displayName: '_Bxng', points: 2813, team: 'PURPLE', teamId: 'violet', teamColor: 'bg-violet-500', avg: 2813, avgPlace: 7.0, editions: 1, bestFinish: 7, isSub: false },
+  { rank: 8, name: 'SpaceFl1erzz', mcName: 'SpaceFl1erzz', displayName: 'SpaceFl1erzz', points: 2812, team: 'CYAN', teamId: 'cyan', teamColor: 'bg-teal-500', avg: 2812, avgPlace: 8.0, editions: 1, bestFinish: 8, isSub: false },
+  { rank: 9, name: 'MykolaPajonkowy', mcName: 'MykolaPajonkowy', displayName: 'MykolaPajonkowy', points: 2744, team: 'AQUA', teamId: 'aqua', teamColor: 'bg-cyan-400', avg: 2744, avgPlace: 9.0, editions: 1, bestFinish: 9, isSub: false },
+  { rank: 10, name: 'okshey', mcName: 'okshey', displayName: 'okshey', points: 2699, team: 'ORANGE', teamId: 'orange', teamColor: 'bg-orange-400', avg: 2699, avgPlace: 10.0, editions: 1, bestFinish: 10, isSub: false },
+  { rank: 11, name: 'Dequaz', mcName: 'Dequaz', displayName: 'Dequaz', points: 2684, team: 'BLUE', teamId: 'blue', teamColor: 'bg-blue-500', avg: 2684, avgPlace: 11.0, editions: 1, bestFinish: 11, isSub: false },
+  { rank: 12, name: 'CeszarzKeczup_', mcName: 'CeszarzKeczup_', displayName: 'CeszarzKeczup_', points: 2564, team: 'GREEN', teamId: 'green', teamColor: 'bg-green-500', avg: 2564, avgPlace: 12.0, editions: 1, bestFinish: 12, isSub: false },
+  { rank: 13, name: 'Hacek_', mcName: 'Hacek_', displayName: 'Hacek_', points: 2548, team: 'PURPLE', teamId: 'violet', teamColor: 'bg-violet-500', avg: 2548, avgPlace: 13.0, editions: 1, bestFinish: 13, isSub: false },
+  { rank: 14, name: 'real123XD', mcName: 'real123XD', displayName: 'real123XD', points: 2388, team: 'RED', teamId: 'red', teamColor: 'bg-red-500', avg: 2388, avgPlace: 14.0, editions: 1, bestFinish: 14, isSub: false },
+  { rank: 15, name: 'cyrtyna', mcName: 'cyrtyna', displayName: 'cyrtyna', points: 2279, team: 'YELLOW', teamId: 'yellow', teamColor: 'bg-yellow-400', avg: 2279, avgPlace: 15.0, editions: 1, bestFinish: 15, isSub: false },
+  { rank: 16, name: 'EpicTigerPro08', mcName: 'EpicTigerPro08', displayName: 'EpicTigerPro08', points: 2248, team: 'BLUE', teamId: 'blue', teamColor: 'bg-blue-500', avg: 2248, avgPlace: 16.0, editions: 1, bestFinish: 16, isSub: false },
+  { rank: 17, name: 'Mu55inMan', mcName: 'Mu55inMan', displayName: 'Mu55inMan', points: 2160, team: 'CYAN', teamId: 'cyan', teamColor: 'bg-teal-500', avg: 2160, avgPlace: 17.0, editions: 1, bestFinish: 17, isSub: false },
+  { rank: 18, name: '_ZiomaleQ', mcName: '_ZiomaleQ', displayName: '_ZiomaleQ', points: 2155, team: 'ORANGE', teamId: 'orange', teamColor: 'bg-orange-400', avg: 2155, avgPlace: 18.0, editions: 1, bestFinish: 18, isSub: false },
+  { rank: 19, name: 'trolfejsx', mcName: 'trolfejsx', displayName: 'trolfejsx', points: 2124, team: 'YELLOW', teamId: 'yellow', teamColor: 'bg-yellow-400', avg: 2124, avgPlace: 19.0, editions: 1, bestFinish: 19, isSub: false },
+  { rank: 20, name: 'NiebieskiNN', mcName: 'NiebieskiNN', displayName: 'NiebieskiNN', points: 1906, team: 'YELLOW', teamId: 'yellow', teamColor: 'bg-yellow-400', avg: 1906, avgPlace: 20.0, editions: 1, bestFinish: 20, isSub: false },
+  { rank: 21, name: 'Maqox', mcName: 'Maqox', displayName: 'Maqox', points: 1825, team: 'RED', teamId: 'red', teamColor: 'bg-red-500', avg: 1825, avgPlace: 21.0, editions: 1, bestFinish: 21, isSub: false },
+  { rank: 22, name: 'Mak0vkaa', mcName: 'Mak0vkaa', displayName: 'Mak0vkaa', points: 1815, team: 'PURPLE', teamId: 'violet', teamColor: 'bg-violet-500', avg: 1815, avgPlace: 22.0, editions: 1, bestFinish: 22, isSub: false },
+  { rank: 23, name: 'XxArbuzik_', mcName: 'XxArbuzik_', displayName: 'XxArbuzik_', points: 1755, team: 'PURPLE', teamId: 'violet', teamColor: 'bg-violet-500', avg: 1755, avgPlace: 23.0, editions: 1, bestFinish: 23, isSub: false },
+  { rank: 24, name: 'Woosiee', mcName: 'Woosiee', displayName: 'Woosiee', points: 1747, team: 'AQUA', teamId: 'aqua', teamColor: 'bg-cyan-400', avg: 1747, avgPlace: 24.0, editions: 1, bestFinish: 24, isSub: false },
+  { rank: 25, name: 'Wojr3kk', mcName: 'Wojr3kk', displayName: 'Wojr3kk', points: 1733, team: 'AQUA', teamId: 'aqua', teamColor: 'bg-cyan-400', avg: 1733, avgPlace: 25.0, editions: 1, bestFinish: 25, isSub: false },
+  { rank: 26, name: 'Spoc0ny_Kacperek', mcName: 'Spoc0ny_Kacperek', displayName: 'Spoc0ny_Kacperek', points: 1699, team: 'AQUA', teamId: 'aqua', teamColor: 'bg-cyan-400', avg: 1699, avgPlace: 26.0, editions: 1, bestFinish: 26, isSub: false },
+  { rank: 27, name: 'Robot55Ster', mcName: 'Steve', displayName: 'Robot55Ster (SUB)', points: 1652, team: 'BLUE', teamId: 'blue', teamColor: 'bg-blue-500', avg: 1652, avgPlace: 27.0, editions: 1, bestFinish: 27, isSub: true },
+  { rank: 28, name: 'h3xol', mcName: 'h3xol', displayName: 'h3xol', points: 1596, team: 'RED', teamId: 'red', teamColor: 'bg-red-500', avg: 1596, avgPlace: 28.0, editions: 1, bestFinish: 28, isSub: false },
+  { rank: 29, name: 'MahiruEnjoyer', mcName: 'MahiruEnjoyer', displayName: 'MahiruEnjoyer', points: 1536, team: 'CYAN', teamId: 'cyan', teamColor: 'bg-teal-500', avg: 1536, avgPlace: 29.0, editions: 1, bestFinish: 29, isSub: false },
+  { rank: 30, name: 'Anna_MokeGacie', mcName: 'Anna_MokeGacie', displayName: 'Anna_MokeGacie', points: 1533, team: 'CYAN', teamId: 'cyan', teamColor: 'bg-teal-500', avg: 1533, avgPlace: 30.0, editions: 1, bestFinish: 30, isSub: false },
+  { rank: 31, name: 'stachunerf', mcName: 'stachunerf', displayName: 'stachunerf', points: 1420, team: 'ORANGE', teamId: 'orange', teamColor: 'bg-orange-400', avg: 1420, avgPlace: 31.0, editions: 1, bestFinish: 31, isSub: false },
+  { rank: 32, name: 'FireBeastMode', mcName: 'FireBeastMode', displayName: 'FireBeastMode (SUB)', points: 965, team: 'BLUE', teamId: 'blue', teamColor: 'bg-blue-500', avg: 965, avgPlace: 32.0, editions: 1, bestFinish: 32, isSub: true },
 ];
 
 export const TEAM_STANDINGS = [
@@ -144,6 +144,70 @@ export const TEAMS = [
   { id: 'cyan', name: 'Team Cyan', color: 'bg-teal-500' },
   { id: 'pink', name: 'Team Pink', color: 'bg-pink-500' },
 ];
+
+// --- 11. PLAYER PARTNERS / NAJCZĘSTSI PARTNERZY ----------------
+export const PLAYER_PARTNERS = {
+  'QesiL': [
+    { name: 'Killed_By_VeGGas', editions: 1 },
+    { name: 'CeszarzKeczup_', editions: 1 },
+    { name: '__Obsydian__', editions: 1 },
+  ],
+  'Killed_By_VeGGas': [
+    { name: 'QesiL', editions: 1 },
+    { name: '__Obsydian__', editions: 1 },
+    { name: 'CeszarzKeczup_', editions: 1 },
+  ],
+  'Ego_Yoahima123': [
+    { name: 'okshey', editions: 1 },
+    { name: '_ZiomaleQ', editions: 1 },
+    { name: 'stachunerf', editions: 1 },
+  ],
+  '__Obsydian__': [
+    { name: 'QesiL', editions: 1 },
+    { name: 'Killed_By_VeGGas', editions: 1 },
+    { name: 'CeszarzKeczup_', editions: 1 },
+  ],
+  'qvwx': [
+    { name: 'real123XD', editions: 1 },
+    { name: 'Maqox', editions: 1 },
+    { name: 'h3xol', editions: 1 },
+  ],
+  'Tisel': [
+    { name: 'cyrtyna', editions: 1 },
+    { name: 'trolfejsx', editions: 1 },
+    { name: 'NiebieskiNN', editions: 1 },
+  ],
+  '_Bxng': [
+    { name: 'Hacek_', editions: 1 },
+    { name: 'Mak0vkaa', editions: 1 },
+    { name: 'XxArbuzik_', editions: 1 },
+  ],
+  'SpaceFl1erzz': [
+    { name: 'Mu55inMan', editions: 1 },
+    { name: 'MahiruEnjoyer', editions: 1 },
+    { name: 'Anna_MokeGacie', editions: 1 },
+  ],
+  'MykolaPajonkowy': [
+    { name: 'Woosiee', editions: 1 },
+    { name: 'Wojr3kk', editions: 1 },
+    { name: 'Spoc0ny_Kacperek', editions: 1 },
+  ],
+  'okshey': [
+    { name: 'Ego_Yoahima123', editions: 1 },
+    { name: '_ZiomaleQ', editions: 1 },
+    { name: 'stachunerf', editions: 1 },
+  ],
+  'Dequaz': [
+    { name: 'EpicTigerPro08', editions: 1 },
+    { name: 'Robot55Ster', editions: 1 },
+    { name: 'FireBeastMode', editions: 1 },
+  ],
+  'CeszarzKeczup_': [
+    { name: 'QesiL', editions: 1 },
+    { name: '__Obsydian__', editions: 1 },
+    { name: 'Killed_By_VeGGas', editions: 1 },
+  ],
+};
 
 // --- helper ---------------------------------------------------
 export function avatarUrl(name, size = 64) {
