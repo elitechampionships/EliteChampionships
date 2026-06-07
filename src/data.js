@@ -70,10 +70,10 @@ export const LAST_CHAMPION = {
   score: 18520,
   place: 1,
   members: [
-    { name: 'OrangeLeader', role: 'Kapitan' },
-    { name: 'OrangeBeast', role: 'Striker' },
-    { name: 'OrangeMage', role: 'Support' },
-    { name: 'OrangeTank', role: 'Obrona' },
+    { name: 'Ego_Yoahima123', role: '#1' },
+    { name: 'okshey', role: '#10' },
+    { name: '_ZiomaleQ', role: '#18' },
+    { name: 'sachunerf', role: '#31' },
   ],
 };
 
@@ -114,14 +114,110 @@ export const TOP_PLAYERS = [
 ];
 
 export const TEAM_STANDINGS = [
-  { rank: 1, id: 'green', name: 'GREEN', points: 22998, color: 'bg-green-500', winner: false },
-  { rank: 2, id: 'orange', name: 'ORANGE', points: 18520, color: 'bg-orange-400', winner: true },
-  { rank: 3, id: 'purple', name: 'PURPLE', points: 18015, color: 'bg-violet-500', winner: false },
-  { rank: 4, id: 'yellow', name: 'YELLOW', points: 17484, color: 'bg-yellow-400', winner: false },
-  { rank: 5, id: 'red', name: 'RED', points: 17152, color: 'bg-red-500', winner: false },
-  { rank: 6, id: 'cyan', name: 'CYAN', points: 15934, color: 'bg-teal-500', winner: false },
-  { rank: 7, id: 'blue', name: 'BLUE', points: 13941, color: 'bg-blue-500', winner: false },
-  { rank: 8, id: 'aqua', name: 'AQUA', points: 13268, color: 'bg-cyan-400', winner: false },
+  {
+    rank: 1,
+    id: 'green',
+    name: 'GREEN',
+    points: 22998,
+    color: 'bg-green-500',
+    players: [
+      'QesiL',
+      'Killed_By_VeGGas',
+      '__Obsydian__',
+      'CeszarzKeczup_',
+    ],
+  },
+  {
+    rank: 2,
+    id: 'orange',
+    name: 'ORANGE',
+    points: 18520,
+    color: 'bg-orange-400',
+    players: [
+      'Ego_Yoahima123',
+      'okshey',
+      '_ZiomaleQ',
+      'stachunerf',
+    ],
+  },
+  {
+    rank: 3,
+    id: 'purple',
+    name: 'PURPLE',
+    points: 18015,
+    color: 'bg-violet-500',
+    players: [
+      '_Bxng',
+      'Hacek_',
+      'Mak0vkaa',
+      'XxArbuzik_',
+    ],
+  },
+  {
+    rank: 4,
+    id: 'yellow',
+    name: 'YELLOW',
+    points: 17484,
+    color: 'bg-yellow-400',
+    players: [
+      'Tisel',
+      'cyrtyna',
+      'trolfejsx',
+      'NiebieskiNN',
+    ],
+  },
+  {
+    rank: 5,
+    id: 'red',
+    name: 'RED',
+    points: 17152,
+    color: 'bg-red-500',
+    players: [
+      'qvwx',
+      'real123XD',
+      'Maqox',
+      'h3xol',
+    ],
+  },
+  {
+    rank: 6,
+    id: 'blue',
+    name: 'BLUE',
+    points: 15934,
+    color: 'bg-blue-500',
+    players: [
+      'Dequaz',
+      'EpicTigerPro08',
+      'Robot55Ster',
+      'FireBeastMode',
+    ],
+  },
+  {
+    rank: 7,
+    id: 'cyan',
+    name: 'CYAN',
+    points: 14141,
+    color: 'bg-teal-500',
+    players: [
+      'SpaceFl1erzz',
+      'Mu55inMan',
+      'Mahiru_Enjoyer',
+      'Anna_MokreGacie',
+    ],
+  },
+  {
+    rank: 8,
+    id: 'aqua',
+    name: 'AQUA',
+    points: 13668,
+    color: 'bg-cyan-400',
+    players: [
+      'MykolaPajonkowy',
+      'Woosiee',
+      'Wojr3kk',
+      'Spoc0ny_Kacperek',
+    ],
+  },
 ];
 
 // --- 9. EDITIONS / HISTORIA EDYCJI ----------------------------
@@ -213,3 +309,98 @@ export const PLAYER_PARTNERS = {
 export function avatarUrl(name, size = 64) {
   return `https://mc-heads.net/avatar/${name || 'Steve'}/${size}`;
 }
+
+export const ALL_TIME_PLAYERS = [
+  {
+    rank: 1,
+    name: 'QesiL',
+    displayName: 'QesiL',
+    team: 'GREEN',
+    points: 3650,
+    avgPlace: 1.0,
+    editions: 1
+  },
+  {
+    rank: 2,
+    name: 'Killed_By_VeGGas',
+    displayName: 'Killed_By_VeGGas',
+    team: 'GREEN',
+    points: 3154,
+    avgPlace: 2.0,
+    editions: 1
+  },
+  {
+    rank: 3,
+    name: 'Ego_Yoahima123',
+    displayName: 'Ego_Yoahima123',
+    team: 'ORANGE',
+    points: 3124,
+    avgPlace: 3.0,
+    editions: 1
+  },
+  {
+    rank: 4,
+    name: '__Obsydian__',
+    displayName: '__Obsydian__',
+    team: 'GREEN',
+    points: 3012,
+    avgPlace: 4.0,
+    editions: 1
+  },
+  {
+    rank: 5,
+    name: 'qvwx',
+    displayName: 'qvwx',
+    team: 'RED',
+    points: 2960,
+    avgPlace: 5.0,
+    editions: 1
+  },
+  {
+    rank: 6,
+    name: 'Tisel',
+    displayName: 'Tisel',
+    team: 'YELLOW',
+    points: 2940,
+    avgPlace: 6.0,
+    editions: 1
+  },
+  {
+    rank: 7,
+    name: '_Bxng',
+    displayName: '_Bxng',
+    team: 'PURPLE',
+    points: 2813,
+    avgPlace: 7.0,
+    editions: 1
+  },
+  {
+    rank: 8,
+    name: 'SpaceFl1erzz',
+    displayName: 'SpaceFl1erzz',
+    team: 'CYAN',
+    points: 2812,
+    avgPlace: 8.0,
+    editions: 1
+  },
+  {
+    rank: 9,
+    name: 'MykolaPajonkowy',
+    displayName: 'MykolaPajonkowy',
+    team: 'AQUA',
+    points: 2744,
+    avgPlace: 9.0,
+    editions: 1
+  },
+  {
+    rank: 10,
+    name: 'okshey',
+    displayName: 'okshey',
+    team: 'ORANGE',
+    points: 2699,
+    avgPlace: 10.0,
+    editions: 1
+  }
+];
+
+console.log('ALL_TIME_PLAYERS loaded');
