@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import StarField from './components/StarField';
 import Home from './pages/Home';
@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App min-h-screen text-white selection:bg-red-500/30 relative overflow-hidden">
       <StarField />
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <main>
           <Routes>
